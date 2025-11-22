@@ -16,6 +16,7 @@ The goal was simple: understand what the data looks like before doing anything e
 * Viewed the first 5–10 rows
 * Checked column names, data types, and basic structure
 * Identified early issues (inconsistent types, awkward column names, etc.)
+* i found none.
 
 ### 2. Looked for Common Real-World Problems
 
@@ -25,7 +26,8 @@ Because real datasets rarely come clean:
 * Duplicates
 * Mixed data types
 * Outliers
-* Columns that aren’t immediately meaningful (e.g., `G1`, `G2`, `G3`)
+* Columns that aren’t immediately meaningful (e.g., `Guy`)
+* This dataset was impressively clean
 
 ### 3. Set Up a Simple Project Structure
 
@@ -46,7 +48,7 @@ Every data analysis project starts with three fundamental questions:
 2. **Is it clean enough to trust?**
 3. **What problems will this dataset create for me later?**
 
-Day 1 builds the foundation for everything that comes next.
+Day 1 builds the foundation for everything that will come next.
 
 ## Next Steps
 
