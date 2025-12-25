@@ -1,59 +1,66 @@
-# Data-Vamp — Day 1: Student Performance Dataset Exploration
+# Data-Vamp
 
-**Data-Vamp** stands for *Data Validation, Analysis, Modeling & Preparation*.
-This project documents my 30-day journey into becoming a stronger data analyst — one dataset at a time.
+**Data-Vamp** is a repository documenting my hands-on journey to become a skilled **Data Analyst**.  
+Each "Day" represents a step in exploring, analyzing, and deriving insights from real-world datasets.  
+Currently, I am working with the **Student Performance dataset** from Kaggle.
 
-## Day 1 — First Contact with the Dataset
+---
 
-Today, I worked with the **Student Performance** dataset from Kaggle.
-The goal was simple: understand what the data looks like before doing anything else.
+## Project Overview
 
-## What I Did
+This project demonstrates my progression in **data analysis**, including:
 
-### 1. Imported and Inspected the Dataset
+- Data loading and inspection  
+- Exploratory Data Analysis (EDA)  
+- Visualization of key patterns and relationships  
+- Correlation and insights for informed interpretation  
+- Continuous skill-building over multiple days
 
-* Loaded the CSV into a Jupyter Notebook
-* Viewed the first 5–10 rows
-* Checked column names, data types, and basic structure
-* Identified early issues (inconsistent types, awkward column names, etc.)
-* i found none.
+**Dataset:** Student Performance (Kaggle)  
+**Tools & Libraries:** Python, pandas, NumPy, matplotlib, seaborn, Jupyter Notebook  
+**Goal:** Turn raw data into actionable insights and strengthen my analytics portfolio
 
-### 2. Looked for Common Real-World Problems
+---
 
-Because real datasets rarely come clean:
+## Project Progress (Days 1–5)
 
-* Missing values
-* Duplicates
-* Mixed data types
-* Outliers
-* Columns that aren’t immediately meaningful (e.g., `Guy`)
-* This dataset was impressively clean
+| Day | Focus | Summary |
+|-----|-------|---------|
+| 1 | EDA | Loaded dataset, inspected columns, checked data types, and missing values |
+| 2 | Basic Analysis | Calculated averages, distributions, and grouped statistics |
+| 3 | Correlation Analysis | Explored correlations between features and identified key relationships |
+| 4 | Visualization | Created charts to compare performance by gender, school, and other variables |
+| 5 | Insights & Summary | Summarized findings, highlighted trends, and proposed next steps for analysis |
 
-### 3. Set Up a Simple Project Structure
+---
+
+## Key Tools & Skills
+
+- **Languages:** Python  
+- **Libraries:** pandas, NumPy, matplotlib, seaborn  
+- **Environment:** Jupyter Notebook  
+- **Skills Demonstrated:** EDA, data cleaning, statistical analysis, correlation, visualization, insight generation
+
+---
+
+## How to Run
+
+1. Clone the repository
+
+2. Navigate to the notebooks folder
+3. Open the notebook for any day (e.g., `Day1_Exploration.ipynb`, `Day5_Insights.ipynb`)
+4. Run the notebook to reproduce the analysis
+
+---
+
+## Key Takeaways
+
+* This repository showcases my **progression as a data analyst** through structured, multi-day analysis
+* Demonstrates **analytical thinking, data cleaning, visualization, and interpretation skills**
+* Provides a foundation for more advanced work, including **feature engineering, predictive modeling, and dashboards**
+
+---
+
+*Data-Vamp is a continuous journey — each day builds on the previous, adding new analysis, skills, and insights.*
 
 ```
-Data-Vamp/
-│── data/
-│    └── raw/student_performance.csv
-│── notebooks/
-│    └── Day1_Exploration.ipynb
-│── README.md
-```
-
-## Why This Step Matters
-
-Every data analysis project starts with three fundamental questions:
-
-1. **What information do I have?**
-2. **Is it clean enough to trust?**
-3. **What problems will this dataset create for me later?**
-
-Day 1 builds the foundation for everything that will come next.
-
-## Next Steps
-
-On Day 2, I will:
-
-* Perform deeper EDA
-* Create basic visualizations
-* Start identifying factors that may influence student performance
